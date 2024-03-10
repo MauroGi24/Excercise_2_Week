@@ -1,0 +1,253 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-left: 4rem;
+}
+
+header img {
+    height: 100%;
+}
+
+#user-menu {
+    width: 35%;
+}
+
+#user-menu i {
+    margin-right: 1rem;
+}
+
+#button-membership {
+    border-radius: 30px 30px;
+    padding: 0.5rem;
+    background-color: white;
+    margin-right: 0.5rem;
+    border: 1px solid;
+}
+
+#profile-settings {
+    background-color: #e25d33;
+    border-radius: 50px 50px;
+    margin-right: 1rem;
+    padding: 0.7rem;
+    vertical-align: middle;
+    color: white;
+    border: none;
+    width: 10%;
+}
+
+main {
+    display: flex;
+}
+
+.main-content {
+    padding: 4rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0.5rem;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 0.5rem;
+}
+
+#top-nav {
+    border-bottom: 1px solid #e6e6e6;
+}
+
+#top-nav a {
+    text-decoration: none;
+    color: #7a7a7a;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.mr-1 {
+    margin-right: 1rem;
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mt-05 {
+    margin-top: 0.5rem;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.img-card {
+    width: 250px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+.author img {
+    border-radius: 50px 50px;
+    width: 25px;
+    margin-right: 0.3rem;
+}
+
+.author span {
+    font-weight: 600;
+    margin: 0 0.2rem;
+}
+
+h2 {
+    margin: 0.5rem 0;
+}
+
+h3 {
+    font-size: 0.9rem;
+}
+
+h4 {
+    font-size: 0.8rem;
+}
+
+.bottom-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #7a7a7a;
+    font-size: 0.8rem;
+}
+
+.dot-img {
+    width: 5px;
+    vertical-align: middle;
+}
+
+aside {
+    padding: 4rem;
+}
+
+.fa-plus {
+    color: #7a7a7a;
+}
+
+.twitter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.twitter p {
+    text-align: center;
+}
+
+.twitter a {
+    font-size: 0.8rem;
+    color: #7a7a7a;
+}
+
+.twitter img {
+    width: 32px;
+    vertical-align: middle;
+}
+
+#log-twitter {
+    border-radius: 30px 30px;
+    padding: 0.5rem;
+    background-color: white;
+    border: 1px solid;
+}
+
+.topics button {
+    border-radius: 30px 30px;
+    padding: 0.4rem;
+    margin: 0.3rem 0;
+    background-color: #e6e6e6;
+    border: none;
+}
+
+.follow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.author-follow {
+    margin-left: -3rem;
+}
+
+.follow img {
+    border-radius: 50px 50px;
+}
+
+.follow p {
+    color: #7a7a7a;
+    font-size: 0.7rem;
+}
+
+.follow button {
+    border-radius: 30px 30px;
+    padding: 0.4rem;
+    background-color: white;
+    border: 1px solid;
+}
+
+.author-saved img {
+    border-radius: 50px 50px;
+    width: 25px;
+    vertical-align: middle;
+}
+
+.author-saved {
+    font-size: 0.8rem;
+}
+
+.author-saved span {
+    font-weight: 600;
+    margin: 0 0.2rem;
+    font-size: 0.8rem;
+}
+
+.bottom-saved {
+    color: #7a7a7a;
+    font-size: 0.8rem;
+}
+
+.fa-star {
+    color: #7a7a7a;
+}
+
+.all-saved a {
+    color: green;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+#bottom-nav {
+    color: #7a7a7a;
+    font-size: 0.8rem;
+    line-height: 2rem;
+}
+
+#bottom-nav ul {
+    padding: 0;
+}
+
+#bottom-nav a {
+    text-decoration: none;
+    color: #7a7a7a;
+}
