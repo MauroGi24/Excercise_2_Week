@@ -3,15 +3,50 @@
     margin: 0;
 }
 
+/* CSS SPACING */
+
+.mr-1 {
+    margin-right: 1rem;
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mt-05 {
+    margin-top: 0.5rem;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+/* CSS HEADING */
+
+h2 {
+    margin: 0.5rem 0;
+}
+
+h3 {
+    font-size: 0.9rem;
+}
+
+h4 {
+    font-size: 0.8rem;
+}
+
+/* CSS HEADER */
+
 header {
     display: flex;
     justify-content: space-between;
-    margin-top: 2rem;
-    margin-left: 4rem;
+    padding: 2rem;
+    box-shadow: 0px -16px 20px 0px;
 }
 
 header img {
     height: 100%;
+    margin-left: 2rem;
 }
 
 #user-menu {
@@ -41,12 +76,15 @@ header img {
     width: 10%;
 }
 
+/* CSS MAIN */
+
 main {
     display: flex;
 }
 
 .main-content {
     padding: 4rem;
+    border-right: 1px solid #e6e6e6;
 }
 
 nav ul {
@@ -74,22 +112,6 @@ nav ul li {
     margin-top: 2rem;
 }
 
-.mr-1 {
-    margin-right: 1rem;
-}
-
-.mt-1 {
-    margin-top: 1rem;
-}
-
-.mt-05 {
-    margin-top: 0.5rem;
-}
-
-.mb-1 {
-    margin-bottom: 1rem;
-}
-
 .img-card {
     width: 250px;
 }
@@ -111,18 +133,6 @@ nav ul li {
     margin: 0 0.2rem;
 }
 
-h2 {
-    margin: 0.5rem 0;
-}
-
-h3 {
-    font-size: 0.9rem;
-}
-
-h4 {
-    font-size: 0.8rem;
-}
-
 .bottom-card {
     display: flex;
     justify-content: space-between;
@@ -135,6 +145,8 @@ h4 {
     width: 5px;
     vertical-align: middle;
 }
+
+/* CSS ASIDE*/
 
 aside {
     padding: 4rem;
